@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "997848994909",
+    "project_id": "pothgula-82617",
+    "storage_bucket": "pothgula-82617.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997848994909:android:29204aeba172b5ced5e9b4",
+        "android_client_info": {
+          "package_name": "com.example.pothgula"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997848994909-ce90g4bmh91go8fmt06ut6gcienhc0o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMvJ2P-jBZH1t6sMvPHTNP0bZ-k992pDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997848994909-ce90g4bmh91go8fmt06ut6gcienhc0o0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Splash Screen</string>
+    <string name="started_title">Hello You!</string>
+    <string name="started_sub_title"><b>Nice to meet you, come join us and achieve your 3A\'s!</b><br></br>
+        <br><font color="c5"><b>Login      --></b></font>if you already have an account.</br><br></br>
+        <br><font color="c5"><b>Register --></b></font>to get started with the app.</br>
+    </string>
+    <string name="guideline">A book in the hand is worth more than a thousand on a shelf</string>
+    <string name="hello_img">hello</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="login_title">Login to app</string>
+    <string name="login_sub_title">
+        <font color="black"><b>Login --></b></font>
+        <b>if you already have an account.</b>
+    </string>
+    <string name="login_email">Your email or username</string>
+    <string name="login_password">Your Password</string>
+    <string name="login_forgot_pw">Forgot Password ?</string>
+    <string name="login_havent_account">
+        I don\'t have an account
+        <font color="c3" size="16"><b>Register</b></font>
+    </string>
+    <string name="register_title">Create an account</string>
+    <string name="register_sub_title">
+        <font color="black"><b>Register --></b></font>
+        <b>to get started with the app.</b>
+    </string>
+    <string name="register_fullname">Your full name</string>
+    <string name="register_email">Your email</string>
+    <string name="register_username">Your username</string>
+    <string name="register_confirm_password">Confirm Password</string>
+    <string name="register_have_account">
+        I already have an account
+        <font color="c3" size="16"><b>Login</b></font>
+    </string>
+
+
+    <string name="reset_pw_title">Reset Your password</string>
+    <string name="reset_pw_sub_title">
+        <font color="white"><b>Reset Password --></b></font>
+        <b>if you forgot your password.</b>
+    </string>
+    <string name="btn_reset_pw">Reset Password</string>
+
+    <string name="back_to_login">
+        Back to
+        <font color="c3"><b>Login</b></font>
+    </string>
+    <string name="name_app">A/L පොත් ගුල</string>
+    <string name="name1_app">A/L POTH GULA</string>
+    <string name="importance_shortsnote">Forces you to pay attention and <br> helps you focus in class</br></string>
+    <string name="importance_tute">Develop your skills                   </string>
+    <string name="importance_recource">Resources when used as a raw material satisfy the needs and comforts of human beings</string>
+    <string name="importance_pastpaper">Good way to practice writing</string>
+
+
+    <string name="app_name2">userProfile</string>
+    <string name="Home">Home</string>
+    <string name="Search">Search</string>
+    <string name="Payment">Payment</string>
+    <string name="Profile">Profile</string>
+    <string name="add">add</string>
+    <string name="btn_logout">Log out</string>
+    <string name="btn_ruqestbook">Request A Book</string>
+</resources>
