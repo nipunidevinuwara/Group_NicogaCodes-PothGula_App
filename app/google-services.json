@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687355891993",
+    "project_id": "sellbookcrud",
+    "storage_bucket": "sellbookcrud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687355891993:android:744683c1cd6c2f2713f588",
+        "android_client_info": {
+          "package_name": "com.example.pothgula"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687355891993-qdmpu5q9pne3h7t39d4s60jncvoub7d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNq4g_3zp7onIBEHjnn7QJJ628ycUIBSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687355891993-qdmpu5q9pne3h7t39d4s60jncvoub7d7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

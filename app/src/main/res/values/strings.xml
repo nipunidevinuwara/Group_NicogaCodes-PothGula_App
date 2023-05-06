@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PothGula</string>
+    <string name="tv_1">Book Sell Request</string>
+    <string name="btn_1">New Request</string>
+    <string name="btn_2">Fetch Requests</string>
+    <string name="tv_2">Sell Request</string>
+    <string name="tv_3">Request ID</string>
+    <string name="tv_4">Book Name</string>
+    <string name="tv_5">Price</string>
+    <string name="tv_6">Quantity</string>
+</resources>
