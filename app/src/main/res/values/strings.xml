@@ -1,3 +1,51 @@
 <resources>
-    <string name="app_name">PothGula</string>
+    <string name="app_name">AdminControl</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_welcome">Welcome Admin1</string>
+    <string name="tv_welcomename">Jeffery D</string>
+    <string name="tv_fullName">Full Name</string>
+    <string name="adminName">Jose Rahul Caplabanca</string>
+    <string name="tv_emaiil">Email</string>
+    <string name="et_email">joserahul@gmail.com</string>
+    <string name="tv_phone">Phone</string>
+    <string name="et_phone">0778554699</string>
+    <string name="btn_edit">EDIT</string>
+    <string name="btn_editpassword">EDIT PASSWORD</string>
+    <string name="tv_uploadpastpapers">Upload Past Papers</string>
+    <string name="et_uploadStream">Stream</string>
+    <string name="tv_subject">Subject</string>
+    <string name="tv_year">Year</string>
+    <string name="btn_editupload">Edit</string>
+    <string name="btn_upload">Upload</string>
+    <string name="viewdonations">View Donations</string>
+    <string name="donationdate">Date</string>
+    <string name="donationamount">Amount Range</string>
+    <string name="donationFilter">Filter</string>
+    <string name="viewrequests">View Requests</string>
+    <string name="name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string-array name="stream">
+
+        <item>Physical Science</item>
+        <item>Biological Science</item>
+        <item>Arts</item>
+        <item>Commerce</item>
+        <item>Common </item>
+    </string-array>
+    <string-array name="subject">
+        <item>Combined Mathematics</item>
+        <item>Biology</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Business Studies</item>
+        <item>Economy</item>
+        <item>Accounting</item>
+        <item>Information Technology </item>
+        <item>History</item>
+        <item>Geography</item>
+    </string-array>
 </resources>
