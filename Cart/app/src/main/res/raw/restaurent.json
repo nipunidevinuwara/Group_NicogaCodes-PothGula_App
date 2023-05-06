@@ -1,0 +1,272 @@
+[
+  {
+    "name":"Short Notes",
+    "address":"Physics",
+    "delivery_charge": 5,
+    "image":"https://ychef.files.bbci.co.uk/976x549/p03gg1lc.jpg",
+
+    "hours":{
+      "Sunday":"available",
+      "Monday":"available",
+      "Tuesday":"available",
+      "Wednesday":"available",
+      "Thursday":"available",
+      "Friday":"available",
+      "Saturday":"available"
+    },
+    "menus": [
+      {
+        "name": "Hand Written 1",
+        "price": 0.04,
+        "url": "https://m.media-amazon.com/images/I/51hxgt2AiVS._SX351_BO1,204,203,200_.jpg"
+      },
+      {
+        "name": "Hand Written 2",
+        "price": 0.99,
+        "url": "https://images.meesho.com/images/products/167892406/t0vxj_512.jpg"
+      },
+      {
+        "name": "Car Bucket",
+        "price": 0.99,
+        "url": "https://m.media-amazon.com/images/I/811tM-GWS-S.jpg"
+      },
+      {
+        "name": "Neet Objective 1",
+        "price": 0.49,
+        "url": "https://m.media-amazon.com/images/I/61W5rsaDnEL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "Neet Objective 2",
+        "price": 0.10,
+        "url": "https://m.media-amazon.com/images/I/61UBCrFdReL._SX698_BO1,204,203,200_.jpg"
+      },
+      {
+        "name": "Objective physics 2",
+        "price": 0.25,
+        "url": "https://m.media-amazon.com/images/I/61NijT4qtGL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "Objective physics 1",
+        "price": 0.49,
+        "url": "https://m.media-amazon.com/images/I/616uKl76ZvL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "waves and thermodynamics",
+        "price": 0.99,
+        "url": "https://m.media-amazon.com/images/I/51upJaC7w5L._SX698_BO1,204,203,200_.jpg"
+      },
+      {
+        "name": "General Physics ",
+        "price": 0.09,
+        "url": "https://m.media-amazon.com/images/I/41hIzOrMFbL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "concepts of physics",
+        "price": 0.49,
+        "url": "https://m.media-amazon.com/images/P/B07M6ZPRLP.01._SCLZZZZZZZ_SX500_.jpg"
+      }
+    ]
+  },
+  {
+    "name":"Tutes",
+    "address":"Physics",
+    "delivery_charge": 4,
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu9xEKTnPwLUo0e3jU7KRzh3RaDl7bd-4jrQ&usqp=CAU",
+
+    "hours":{
+      "Sunday":"available",
+      "Monday":"available",
+      "Tuesday":"available",
+      "Wednesday":"available",
+      "Thursday":"available",
+      "Friday":"available",
+      "Saturday":"available"
+    },
+    "menus": [
+      {
+        "name": "Hand Written 1",
+        "price": 100.00,
+        "url": "https://m.media-amazon.com/images/I/51hxgt2AiVS._SX351_BO1,204,203,200_.jpg"
+      },
+      {
+        "name": "Hand Written 2",
+        "price": 130.99,
+        "url": "https://images.meesho.com/images/products/167892406/t0vxj_512.jpg"
+      },
+      {
+        "name": "Car Bucket",
+        "price": 400.99,
+        "url": "https://m.media-amazon.com/images/I/811tM-GWS-S.jpg"
+      },
+      {
+        "name": "Neet Objective 1",
+        "price": 500.49,
+        "url": "https://m.media-amazon.com/images/I/61W5rsaDnEL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "Neet Objective 2",
+        "price": 400.00,
+        "url": "https://m.media-amazon.com/images/I/61UBCrFdReL._SX698_BO1,204,203,200_.jpg"
+      },
+      {
+        "name": "Objective physics 2",
+        "price": 300.25,
+        "url": "https://m.media-amazon.com/images/I/61NijT4qtGL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "Objective physics 1",
+        "price": 200.49,
+        "url": "https://m.media-amazon.com/images/I/616uKl76ZvL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "waves and thermodynamics",
+        "price": 380.99,
+        "url": "https://m.media-amazon.com/images/I/51upJaC7w5L._SX698_BO1,204,203,200_.jpg"
+      },
+      {
+        "name": "General Physics ",
+        "price": 800.09,
+        "url": "https://m.media-amazon.com/images/I/41hIzOrMFbL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "concepts of physics",
+        "price": 600.49,
+        "url": "https://m.media-amazon.com/images/P/B07M6ZPRLP.01._SCLZZZZZZZ_SX500_.jpg"
+      }
+    ]
+  },
+  {
+    "name":"Past Papers",
+    "address":"Physics",
+    "delivery_charge": 5,
+    "image":"https://www.shutterstock.com/image-photo/open-old-book-isolated-on-260nw-118570552.jpg",
+    "hours":{
+      "Sunday":"available",
+      "Monday":"available",
+      "Tuesday":"available",
+      "Wednesday":"available",
+      "Thursday":"available",
+      "Friday":"available",
+      "Saturday":"available"
+    },
+    "menus": [
+      {
+        "name": "Hand Written 1",
+        "price": 100.00,
+        "url": "https://m.media-amazon.com/images/I/51hxgt2AiVS._SX351_BO1,204,203,200_.jpg"
+      },
+      {
+        "name": "Hand Written 2",
+        "price": 130.99,
+        "url": "https://images.meesho.com/images/products/167892406/t0vxj_512.jpg"
+      },
+      {
+        "name": "Car Bucket",
+        "price": 400.99,
+        "url": "https://m.media-amazon.com/images/I/811tM-GWS-S.jpg"
+      },
+      {
+        "name": "Neet Objective 1",
+        "price": 500.49,
+        "url": "https://m.media-amazon.com/images/I/61W5rsaDnEL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "Neet Objective 2",
+        "price": 400.00,
+        "url": "https://m.media-amazon.com/images/I/61UBCrFdReL._SX698_BO1,204,203,200_.jpg"
+      },
+      {
+        "name": "Objective physics 2",
+        "price": 300.25,
+        "url": "https://m.media-amazon.com/images/I/61NijT4qtGL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "Objective physics 1",
+        "price": 200.49,
+        "url": "https://m.media-amazon.com/images/I/616uKl76ZvL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "waves and thermodynamics",
+        "price": 380.99,
+        "url": "https://m.media-amazon.com/images/I/51upJaC7w5L._SX698_BO1,204,203,200_.jpg"
+      },
+      {
+        "name": "General Physics ",
+        "price": 800.09,
+        "url": "https://m.media-amazon.com/images/I/41hIzOrMFbL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "concepts of physics",
+        "price": 600.49,
+        "url": "https://m.media-amazon.com/images/P/B07M6ZPRLP.01._SCLZZZZZZZ_SX500_.jpg"
+      }
+    ]
+  },
+  {
+    "name":"Resources",
+    "address":"Physics",
+    "delivery_charge": 6,
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF4XgwvyI4zVTVg6lp9ZAYo6cMut6pODbhVw&usqp=CAU",
+    "hours":{
+      "Sunday":"available",
+      "Monday":"available",
+      "Tuesday":"available",
+      "Wednesday":"available",
+      "Thursday":"available",
+      "Friday":"available",
+      "Saturday":"available"
+    },
+    "menus": [
+      {
+        "name": "Hand Written 1",
+        "price": 100.00,
+        "url": "https://m.media-amazon.com/images/I/51hxgt2AiVS._SX351_BO1,204,203,200_.jpg"
+      },
+      {
+        "name": "Hand Written 2",
+        "price": 130.99,
+        "url": "https://images.meesho.com/images/products/167892406/t0vxj_512.jpg"
+      },
+      {
+        "name": "Car Bucket",
+        "price": 400.99,
+        "url": "https://m.media-amazon.com/images/I/811tM-GWS-S.jpg"
+      },
+      {
+        "name": "Neet Objective 1",
+        "price": 500.49,
+        "url": "https://m.media-amazon.com/images/I/61W5rsaDnEL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "Neet Objective 2",
+        "price": 400.00,
+        "url": "https://m.media-amazon.com/images/I/61UBCrFdReL._SX698_BO1,204,203,200_.jpg"
+      },
+      {
+        "name": "Objective physics 2",
+        "price": 300.25,
+        "url": "https://m.media-amazon.com/images/I/61NijT4qtGL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "Objective physics 1",
+        "price": 200.49,
+        "url": "https://m.media-amazon.com/images/I/616uKl76ZvL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "waves and thermodynamics",
+        "price": 380.99,
+        "url": "https://m.media-amazon.com/images/I/51upJaC7w5L._SX698_BO1,204,203,200_.jpg"
+      },
+      {
+        "name": "General Physics ",
+        "price": 800.09,
+        "url": "https://m.media-amazon.com/images/I/41hIzOrMFbL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"
+      },
+      {
+        "name": "concepts of physics",
+        "price": 600.49,
+        "url": "https://m.media-amazon.com/images/P/B07M6ZPRLP.01._SCLZZZZZZZ_SX500_.jpg"
+      }
+    ]
+  }
+]
