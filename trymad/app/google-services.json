@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1010803765077",
+    "project_id": "fir-realtimeotlin",
+    "storage_bucket": "fir-realtimeotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010803765077:android:a5a2f0d80e9370a67e89dc",
+        "android_client_info": {
+          "package_name": "com.example.mad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010803765077-0frne6m436gjg3miuciidn6ul4nscsra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVpCSf_XuOHh_OCNKSehljyKLDwnpF2b0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010803765077-0frne6m436gjg3miuciidn6ul4nscsra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
