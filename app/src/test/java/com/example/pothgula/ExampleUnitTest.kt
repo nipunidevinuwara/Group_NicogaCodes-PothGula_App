@@ -1,4 +1,4 @@
-package com.example.admincontrol
+package com.example.pothgula
 
 import org.junit.Test
 
