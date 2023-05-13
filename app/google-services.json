@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "997848994909",
-    "project_id": "pothgula-82617",
-    "storage_bucket": "pothgula-82617.appspot.com"
+    "project_number": "93877092861",
+    "project_id": "pothgulaauthentiation",
+    "storage_bucket": "pothgulaauthentiation.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:997848994909:android:29204aeba172b5ced5e9b4",
+        "mobilesdk_app_id": "1:93877092861:android:964c25b36b4c3c9c65d994",
         "android_client_info": {
-          "package_name": "com.example.pothgula"
+          "package_name": "com.example.pothgulaauthentiation"
         }
       },
       "oauth_client": [
         {
-          "client_id": "997848994909-ce90g4bmh91go8fmt06ut6gcienhc0o0.apps.googleusercontent.com",
+          "client_id": "93877092861-4f7cpgukue6n5m7akhc8ttlceueo8shb.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDMvJ2P-jBZH1t6sMvPHTNP0bZ-k992pDg"
+          "current_key": "AIzaSyBcXs1WZhuaZqLEO3Rfy0E6GK-XKJ0o5ak"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "997848994909-ce90g4bmh91go8fmt06ut6gcienhc0o0.apps.googleusercontent.com",
+              "client_id": "93877092861-4f7cpgukue6n5m7akhc8ttlceueo8shb.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

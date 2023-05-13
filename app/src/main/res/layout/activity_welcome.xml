@@ -14,14 +14,14 @@
         android:id="@+id/tv_started_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="monospace"
         android:text="@string/started_title"
         android:textColor="@color/c4"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStratOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -31,14 +31,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:fontFamily="sans-serif"
-        android:lineHeight="23sp"
+        android:lineHeight="35sp"
         android:text="@string/started_sub_title"
         android:textAlignment="textStart"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStratOf="parent"
-        app:layout_constrainTop_toBottmOf="@+id/tv_started_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_started_title"
         />
 
     <ImageView
@@ -49,11 +49,11 @@
         android:src="@drawable/hello"
         android:layout_marginTop="5dp"
         android:padding="10dp"
-        app:layout_constrainBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-         />
+        />
 
 
     <androidx.appcompat.widget.AppCompatButton
@@ -63,10 +63,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
+        android:minHeight="48dp"
         android:text="@string/btn_login"
         app:layout_constraintBottom_toTopOf="@+id/btn_register"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStratOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_register"
@@ -78,7 +79,7 @@
         android:text="@string/btn_register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStratOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 

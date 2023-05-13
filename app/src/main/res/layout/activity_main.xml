@@ -14,8 +14,14 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="80dp"
-        android:src="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+         />
 
     <TextView
         android:id="@+id/title1_text"
@@ -35,9 +41,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/diplomata_sc"
         android:gravity="center"
-        android:layout_marginTop="20dp"
         android:text="@string/name1_app"
         android:textColor="@color/c2"
         android:textSize="25sp"
@@ -53,7 +59,9 @@
         android:gravity="center"
         android:text="@string/guideline"
         android:textColor="@color/c3"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="10dp" />
 
 
 </LinearLayout>

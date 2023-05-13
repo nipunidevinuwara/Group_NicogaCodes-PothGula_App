@@ -1,4 +1,4 @@
-package com.example.pothgula
+package com.example.pothgulaauthentiation
 
 import org.junit.Test
 
