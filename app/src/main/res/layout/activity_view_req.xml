@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewReq">
+    <LinearLayout
+        android:id="@+id/tv_autjor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".adminUpload">
+
+        <TextView
+            android:id="@+id/tv_viewr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+
+            android:text="@string/viewrequests"
+            android:textAlignment="center"
+            android:textColor="#5c2c9c"
+
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/donationicon"
+            android:layout_width="78dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="157dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/ic_baseline_new_releases_24" />
+        <TextView
+            android:id="@+id/tv_viewreqstream"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+
+            android:text="Stream"
+            android:textAlignment="center"
+            android:textColor="#5C2C9C"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_streamname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="Physical" />
+
+        <TextView
+            android:id="@+id/tv_viewreqsubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+
+            android:text="Subject"
+            android:textAlignment="center"
+            android:textColor="#5C2C9C"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_subjectname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:text="Maths" />
+
+
+        <TextView
+            android:id="@+id/et_subjecdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+
+            android:text="Date"
+            android:textAlignment="center"
+            android:textColor="#5C2C9C"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_dt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:text="2002-01-10"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp">
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="200dp"
+                android:backgroundTint="#B17CDF"
+                android:onClick="insert_data"
+
+
+                android:text="SAVE"
+                android:textColor="#212121"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="#B17CDF"
+                android:onClick="showList"
+
+
+                android:text="SHOW LIST"
+                android:textColor="#212121"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

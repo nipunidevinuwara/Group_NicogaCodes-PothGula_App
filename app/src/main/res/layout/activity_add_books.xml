@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddBooks">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".adminUpload" >
+
+        <TextView
+            android:id="@+id/tv_viewdonations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+
+            android:text="Upload Books"
+            android:textAlignment="center"
+            android:textColor="#5c2c9c"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/donationicon"
+            android:layout_width="78dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="162dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/ic_baseline_upload_file_24"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/tv_streamrequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+
+            android:text="@string/et_uploadStream"
+            android:textColor="#5c2c9c"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/sp_stream"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:minHeight="48dp"
+            android:text="Physical" />
+
+        <TextView
+            android:id="@+id/tv_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+
+            android:textColor="#5c2c9c"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="@string/tv_subject" />
+
+        <EditText
+            android:id="@+id/sp_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="Physics" />
+
+        <TextView
+            android:id="@+id/tv_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+
+            android:textColor="#5c2c9c"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="@string/tv_year" />
+
+        <EditText
+            android:id="@+id/book_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:inputType="date"
+            android:minHeight="48dp"
+            tools:text="2019" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp">
+
+            <Button
+                android:id="@+id/btn_editbook"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="200dp"
+                android:backgroundTint="#B17CDF"
+                android:onClick="insert_bookdata"
+
+
+                android:text="SAVE"
+                android:textColor="#212121"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_imagebook"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-190dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="#B17CDF"
+                android:onClick="insert_Imgbook"
+
+
+                android:text="SELECT PHOTO"
+                android:textColor="#212121"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonshowbooklist"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="#B17CDF"
+                android:onClick="showbookList"
+
+
+                android:text="SHOW LIST"
+                android:textColor="#212121"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp">
+
+            <Button
+                android:id="@+id/btn_updatebook"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="200dp"
+                android:backgroundTint="#B17CDF"
+                android:onClick="update_bookdata"
+                android:visibility="gone"
+
+
+                android:text="UPDATE"
+                android:textColor="#212121"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_deletebook"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="#B17CDF"
+                android:onClick="delete_bookdata"
+                android:visibility="gone"
+
+
+                android:text="DELETE"
+                android:textColor="#212121"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_uploadbookimg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="#B17CDF"
+            android:text="@string/btn_upload" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

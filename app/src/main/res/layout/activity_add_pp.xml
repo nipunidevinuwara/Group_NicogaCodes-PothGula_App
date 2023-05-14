@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/frameLayout"
-    tools:context=".ViewdonationsFragment">
-
+    tools:context=".AddPP">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".adminUpload">
+        tools:context=".adminUpload" >
 
         <TextView
             android:id="@+id/tv_viewdonations"
@@ -21,7 +19,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
 
-            android:text="@string/viewdonations"
+            android:text="@string/tv_uploadpastpapers"
             android:textAlignment="center"
             android:textColor="#5c2c9c"
             android:textSize="30sp"
@@ -31,11 +29,11 @@
             android:id="@+id/donationicon"
             android:layout_width="78dp"
             android:layout_height="72dp"
-            android:layout_marginStart="157dp"
+            android:layout_marginLeft="162dp"
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
             android:textAlignment="center"
-            app:srcCompat="@drawable/ic_baseline_attach_money_24"
+            app:srcCompat="@drawable/ic_baseline_upload_file_24"
             android:contentDescription="TODO" />
 
         <TextView
@@ -46,53 +44,90 @@
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
 
-            android:text="@string/donationdate"
+            android:text="@string/et_uploadStream"
             android:textColor="#5c2c9c"
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <CalendarView
-            android:id="@+id/calenderDonations"
+        <Spinner
+            android:id="@+id/sp_stream"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
-            android:layout_marginRight="16dp" />
+            android:layout_marginRight="16dp"
+
+            android:entries="@array/stream"
+            android:minHeight="48dp" />
 
         <TextView
-            android:id="@+id/tv_donationamount"
+            android:id="@+id/tv_subject"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
 
-            android:text="@string/donationamount"
             android:textColor="#5c2c9c"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:text="@string/tv_subject" />
 
-        <SeekBar
-            android:id="@+id/seekbr_amount"
+        <Spinner
+            android:id="@+id/sp_subject"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
-            android:max="50000"
-            />
+
+            android:entries="@array/subject"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/tv_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+
+            android:textColor="#5c2c9c"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="@string/tv_year" />
+
+        <EditText
+            android:id="@+id/book_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:inputType="date"
+            android:minHeight="48dp"
+            tools:text="2019" />
 
         <Button
-            android:id="@+id/btn_filterdonations"
+            android:id="@+id/btn_savebook"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
             android:backgroundTint="#B17CDF"
-            android:text="@string/donationFilter" />
+            android:text="@string/btn_editupload" />
+
+        <Button
+            android:id="@+id/btn_uploadbookimg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="#B17CDF"
+            android:text="@string/btn_upload" />
     </LinearLayout>
 
-
-
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

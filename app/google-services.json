@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "225075909285",
-    "firebase_url": "https://admincontrol-85758-default-rtdb.firebaseio.com",
-    "project_id": "admincontrol-85758",
-    "storage_bucket": "admincontrol-85758.appspot.com"
+    "project_number": "498570634320",
+    "firebase_url": "https://adminfull-f4382-default-rtdb.firebaseio.com",
+    "project_id": "adminfull-f4382",
+    "storage_bucket": "adminfull-f4382.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:225075909285:android:f3475ef3833c591d3a334c",
+        "mobilesdk_app_id": "1:498570634320:android:c575a41225e0ec3e775d55",
         "android_client_info": {
-          "package_name": "com.example.admincontrol"
+          "package_name": "com.example.adminfull"
         }
       },
       "oauth_client": [
         {
-          "client_id": "225075909285-6eta3fc62ga0ll8l4jqosdhk2na36kve.apps.googleusercontent.com",
+          "client_id": "498570634320-fe1g4du1idal4anfkmr9to16l63fv0tn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCte6SO8FH6J3it6PBKegk0akKMlmMZ99A"
+          "current_key": "AIzaSyA2nniL5esVcST6MZ9BJyT7zUeuV3KUEmY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "225075909285-6eta3fc62ga0ll8l4jqosdhk2na36kve.apps.googleusercontent.com",
+              "client_id": "498570634320-fe1g4du1idal4anfkmr9to16l63fv0tn.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
