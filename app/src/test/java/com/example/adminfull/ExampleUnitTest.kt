@@ -1,4 +1,4 @@
-package com.example.admincontrol
+package com.example.adminfull
 
 import org.junit.Test
 

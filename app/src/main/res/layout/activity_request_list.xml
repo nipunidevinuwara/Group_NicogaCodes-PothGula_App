@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdminList">
+    tools:context=".RequestList">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/admin_list"
+        android:id="@+id/request_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
